@@ -37,3 +37,8 @@ Thumbs.db
 
 # ---- Custom ----
 notes*.txt
+
+# ---- Node Modules ----
+node_modules
+# dependencies
+/node_modules
