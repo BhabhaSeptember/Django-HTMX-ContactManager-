@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Virtual Environments ----
+venv/
+.venv/
+ENV/
+env/
+
+# ---- Environment & Secrets ----
+*.env
+.env.*
+!example.env   # keep a sample env if you want
+
+# ---- Django ----
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+
+# ---- Logs ----
+*.log
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.iml
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Custom ----
+notes*.txt
+
+# ---- Node Modules ----
+node_modules
+# dependencies
+/node_modules
